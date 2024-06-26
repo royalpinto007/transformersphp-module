@@ -1,0 +1,7 @@
+text_generation.generate_text:
+  path: '/text-generation'
+  defaults:
+    _controller: '\Drupal\text_generation\Controller\TextGenerationController::generateText'
+    _title: 'Text Generation'
+  requirements:
+    _permission: 'access content'

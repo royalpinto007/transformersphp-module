@@ -1,0 +1,9 @@
+{
+    "name": "drupal/text_generation",
+    "type": "drupal-module",
+    "autoload": {
+      "psr-4": {
+        "Drupal\\text_generation\\": "src/"
+      }
+    }
+  }

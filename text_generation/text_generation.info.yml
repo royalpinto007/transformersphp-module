@@ -1,0 +1,7 @@
+name: 'Text Generation'
+type: module
+description: 'A module to generate text using TransformersPHP.'
+core_version_requirement: ^8 || ^9 || ^10
+package: Custom
+dependencies:
+  - drupal:form

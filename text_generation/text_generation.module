@@ -1,0 +1,16 @@
+<?php
+
+/**
+ * Implements hook_theme().
+ */
+function text_generation_theme() {
+  return [
+    'text_generation_page' => [
+      'variables' => [
+        'prompt' => '',
+        'generated_text' => '',
+      ],
+    ],
+  ];
+}
+
